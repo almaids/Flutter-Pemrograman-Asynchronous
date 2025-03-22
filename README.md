@@ -1,4 +1,4 @@
-![W5 Soal 11](https://github.com/user-attachments/assets/7967d972-3a4d-4f17-a53f-63431852565c)![W5 Soal 6](https://github.com/user-attachments/assets/b9994132-98d4-4b60-bac0-c0ee3829dc11)# Flutter-Pemrograman-Asynchronous
+# Flutter-Pemrograman-Asynchronous
 
 # Praktikum 1
 # Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
