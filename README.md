@@ -1,4 +1,4 @@
-![W5 Soal 6](https://github.com/user-attachments/assets/b9994132-98d4-4b60-bac0-c0ee3829dc11)# Flutter-Pemrograman-Asynchronous
+# Flutter-Pemrograman-Asynchronous
 
 # Praktikum 1
 # Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
@@ -54,6 +54,16 @@ Sementara pada Langkah 5–6, ditambahkan mekanisme try-catch di dalam calculate
 Saat method handleError() dijalankan lewat tombol ElevatedButton, layar akan menampilkan pesan error "Exception: Something terrible happened!". Di log, juga akan muncul tulisan "Complete", karena kode di dalam finally tetap dijalankan meskipun terjadi error. Perbedaan dari keduanya yaitu : 
 Pada Langkah 1, returnError() dipanggil langsung dan ditangani dengan .then(), .catchError(), dan .whenComplete(). Ini disebut callback chaining.
 Sedangkan pada Langkah 4, returnError() dipanggil di dalam try-catch-finally melalui method handleError() dengan gaya async-await. Cara ini membuat kode lebih rapi dan lebih mudah dipahami karena alurnya seperti kode biasa (sinkron).
+
+# Praktikum 6
+# Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+![W5 Soal 11](https://github.com/user-attachments/assets/88aa865b-a5d3-46af-8fa0-a5ec6d9f7a9b)
+# Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Saya tidak mendapatkan koordinat GPS saat menjalankan aplikasi di browser karena beberapa kendala. Geolocator membutuhkan sensor GPS, sedangkan browser hanya mengandalkan API Geolocation yang kurang akurat. Selain itu, akses lokasi memerlukan izin pengguna dan harus berjalan di https. Jika menggunakan emulator atau perangkat tanpa GPS, lokasi bisa tidak terdeteksi atau kurang akurat.
+# Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![W5 Soal 12](https://github.com/user-attachments/assets/6eb901de-d505-4495-a3b8-a8da8f9d089f)
+
+
 
 
 
