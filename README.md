@@ -47,6 +47,15 @@ Sementara pada Langkah 5–6, ditambahkan mekanisme try-catch di dalam calculate
 - Pada langkah 1 menggunakan FutureGroup, yang memungkinkan menambahkan future satu per satu secara dinamis sebelum ditutup.
 - Pada langkah 4 menggunakan Future.wait, cara yang lebih simpel untuk menjalankan banyak future sekaligus jika jumlahnya sudah pasti.
 
+# Praktikum 5
+# Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![W5 Soal 9](https://github.com/user-attachments/assets/9faf7a0d-d2b5-47c0-9b5d-dd8600a107ae)
+# Jelaskan maksud perbedaan kode langkah 1 dan 4!
+Saat method handleError() dijalankan lewat tombol ElevatedButton, layar akan menampilkan pesan error "Exception: Something terrible happened!". Di log, juga akan muncul tulisan "Complete", karena kode di dalam finally tetap dijalankan meskipun terjadi error. Perbedaan dari keduanya yaitu : 
+Pada Langkah 1, returnError() dipanggil langsung dan ditangani dengan .then(), .catchError(), dan .whenComplete(). Ini disebut callback chaining.
+Sedangkan pada Langkah 4, returnError() dipanggil di dalam try-catch-finally melalui method handleError() dengan gaya async-await. Cara ini membuat kode lebih rapi dan lebih mudah dipahami karena alurnya seperti kode biasa (sinkron).
+
+
 
 
 
