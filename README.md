@@ -1,12 +1,12 @@
 # Flutter-Pemrograman-Asynchronous
 
 # Praktikum 1
-**Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.**
+**Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.** <br>
 ![W5 Soal 1](https://github.com/user-attachments/assets/118a4c86-c665-44b7-8f82-e3e29dc8f0d2)
 <br>
 **Lakukan capture milik Anda dan tulis di README pada laporan praktikum.**
 ![W5 Soal 2](https://github.com/user-attachments/assets/139fcf07-d3bf-4382-804f-59e3ada92164)
-**Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!**
+**Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!** <br>
 Pada langkah 5 menjelaskan dua bagian penting dari kode: penggunaan substring dan catchError.
 - substring(0, 450)
 Fungsi ini digunakan untuk mengambil bagian awal dari sebuah teks, tepatnya 450 karakter pertama. Dalam konteks kode value.body.toString().substring(0, 450), teks yang diambil berasal dari hasil konversi value.body ke dalam bentuk string. Tujuannya adalah untuk mempersingkat teks agar tidak terlalu panjang saat ditampilkan di aplikasi.
