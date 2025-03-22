@@ -40,6 +40,14 @@ Sementara pada Langkah 5–6, ditambahkan mekanisme try-catch di dalam calculate
 # Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![W5 Soal 6](https://github.com/user-attachments/assets/a1e69987-831c-429c-b1bd-e0683a6f47e6)
 
+# Praktikum 4
+# Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+![W5 Soal 7](https://github.com/user-attachments/assets/f04d7111-4224-4997-9d98-2476848da472)
+# Jelaskan maksud perbedaan kode langkah 1 dan 4!
+- Pada langkah 1 menggunakan FutureGroup, yang memungkinkan menambahkan future satu per satu secara dinamis sebelum ditutup.
+- Pada langkah 4 menggunakan Future.wait, cara yang lebih simpel untuk menjalankan banyak future sekaligus jika jumlahnya sudah pasti.
+
+
 
 
 
