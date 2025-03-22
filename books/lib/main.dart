@@ -32,11 +32,38 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
 
+  //Praktikum 1
   Future<http.Response> getData() async {
     const authority = 'www.googleapis.com';
     const path = '/books/v1/volumes/junbDwAAQBAJ';
     Uri url = Uri.https(authority, path);
     return http.get(url);
+  }
+
+  //Praktikum 2
+  Future<int> returnOneAsync() async {
+  await Future.delayed(const Duration(seconds: 3));
+  return 1;
+  }
+
+  Future<int> returnTwoAsync() async {
+  await Future.delayed(const Duration(seconds: 3));
+  return 2;
+  }
+
+  Future<int> returnThreeAsync() async {
+  await Future.delayed(const Duration(seconds: 3));
+  return 3;
+  }
+
+  Future count() async {
+    int total = 0;
+    total = await returnOneAsync();
+    total += await returnTwoAsync();
+    total += await returnThreeAsync();
+    setState(() {
+      result = total.toString();
+    });
   }
 
   @override
@@ -49,20 +76,29 @@ class _FuturePageState extends State<FuturePage> {
         child: Column(
           children: [
             const Spacer(),
-            ElevatedButton(
-              child: Text('GO!'),
-              onPressed: (){
-                setState(() {});
-                getData()
-                  .then((value) {
-                    result = value.body.toString().substring(0, 450);
-                    setState(() {});
-                  }).catchError((_){
-                    result = 'An error occurred';
-                    setState(() {});
-                  });
-              },
-            ),
+          // Praktikum 1  
+          //  ElevatedButton(
+          //    child: Text('GO!'),
+          //    onPressed: (){
+          //      setState(() {});
+          //      getData()
+          //        .then((value) {
+          //          result = value.body.toString().substring(0, 450);
+          //         setState(() {});
+          //        }).catchError((_){
+          //          result = 'An error occurred';
+          //          setState(() {});
+          //        });
+          //    },
+          //  ),
+
+          // Praktikum 2
+          ElevatedButton(
+            child: Text('GO!'),
+            onPressed: () {
+              count();
+            },
+          ),
             const Spacer(),
             Text(result),
             const Spacer(),
