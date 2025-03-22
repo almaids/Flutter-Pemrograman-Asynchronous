@@ -14,6 +14,18 @@ Fitur ini digunakan untuk menangani kesalahan yang mungkin terjadi saat menjalan
 # Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 ![W5 Soal 3](https://github.com/user-attachments/assets/6b528413-66f3-467d-a785-c1feb872a2f9)
 
+# Praktikum 2
+# Jelaskan maksud kode langkah 1 dan 2 tersebut!
+Pada bagian ini, tiga method asynchronous dibuat: returnOneAsync(), returnTwoAsync(), dan returnThreeAsync(). Masing-masing method menggunakan await Future.delayed(Duration(seconds: 3)), yang berarti mereka akan menunggu selama 3 detik sebelum mengembalikan nilai.
+- returnOneAsync() mengembalikan nilai 1
+- returnTwoAsync() mengembalikan nilai 2
+- returnThreeAsync() mengembalikan nilai 3
+Tujuan dari delay ini adalah untuk mensimulasikan proses asynchronous, misalnya seperti pengambilan data dari server, atau proses yang memerlukan waktu tertentu sebelum hasilnya tersedia.
+# Capture hasil praktikum Anda berupa GIF dan lampirkan di README. 
+![W5 Soal 4](https://github.com/user-attachments/assets/5eaaddac-a864-481e-82cf-b35ea832b473)
+
+
+
 
 
 
